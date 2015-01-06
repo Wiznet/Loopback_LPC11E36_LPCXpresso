@@ -50,8 +50,8 @@ void Net_Conf()
 	wiz_NetInfo gWIZNETINFO = {
 		{ 0x11, 0x22, 0x33, 0x44, 0x55, 0x66 },				// Mac address
 		{ 192, 168, 1, 100 },								// IP address
-		{ 192, 168, 1, 1},									// Gateway
 		{ 255, 255, 255, 0},								// Subnet mask
+		{ 192, 168, 1, 1},									// Gateway
 		{ 8, 8, 8, 8},										// DNS Server
 	};
 
