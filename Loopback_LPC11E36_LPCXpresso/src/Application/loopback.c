@@ -76,7 +76,7 @@ int32_t loopback_udps(uint8_t sn, uint8_t* buf, uint16_t port)
          if((size = getSn_RX_RSR(sn)) > 0) // Don't need to check SOCKERR_BUSY because it doesn't not occur.
          {
             if(size > DATA_BUF_SIZE) size = DATA_BUF_SIZE;
-            ret = recvfrom(sn,buf,size,destip,(uint16_t*)&destport,&packinfo);
+            ret = recvfrom(sn,buf,size,destip,(uint16_t*)&destport);
             if(ret <= 0)   // check SOCKERR_BUSY & SOCKERR_XXX. For showing the occurrence of SOCKERR_BUSY.
             {
                printf("%d: recvfrom error. %ld\r\n",sn,ret);
@@ -143,7 +143,7 @@ int32_t loopback_udps(uint8_t sn, uint8_t* buf, uint16_t size)
    static uint16_t port = 0;
    uint8_t  packinfo;
 
-   if((ret = recvfrom(sn,buf,size, addr,&port,&packinfo)) < 0)
+   if((ret = recvfrom(sn,buf,size, addr,&port)) < 0)
    {
       printf("%d:recvfrom error:%ld\r\n",sn,ret);
       return ret;
