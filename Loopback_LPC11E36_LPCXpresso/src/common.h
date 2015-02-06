@@ -10,6 +10,5 @@
 #define _COMMON_H_
 
 #define DATA_BUF_SIZE   128
-#define NULL	0
 
 #endif /* _COMMON_H_ */

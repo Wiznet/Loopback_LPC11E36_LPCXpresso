@@ -38,7 +38,7 @@
 								<option id="gnu.c.compiler.option.include.paths.1083020903" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/wiznet_evb_w5500evb_board/inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lpc_chip_11exx/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="../src/Application"/>
+									<listOptionValue builtIn="false" value="../src/ioLibrary/Application/loopback"/>
 									<listOptionValue builtIn="false" value="../src/ioLibrary/Ethernet"/>
 									<listOptionValue builtIn="false" value="../src/ioLibrary/Ethernet/W5500"/>
 									<listOptionValue builtIn="false" value="../src/ioLibrary/Internet/DHCP"/>
