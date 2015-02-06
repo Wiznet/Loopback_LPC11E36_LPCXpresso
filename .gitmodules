@@ -1,3 +1,0 @@
-[submodule "Loopback_LPC11E36_LPCXpresso/src/ioLibrary"]
-	path = Loopback_LPC11E36_LPCXpresso/src/ioLibrary
-	url = git@github.com:Wiznet/ioLibrary_Driver.git
