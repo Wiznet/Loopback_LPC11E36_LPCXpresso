@@ -24,7 +24,7 @@ best fits for low-end Non-OS devices connecting to Ethernet for the Internet of 
 - $ git submodule init
 - $ git submodule update
 
-## How to add an ioLibrary on project
+## How to add an ioLibrary in project through github site.
   - Refer to https://www.youtube.com/watch?v=mt815RBGdsA
 
 ## Revision History
